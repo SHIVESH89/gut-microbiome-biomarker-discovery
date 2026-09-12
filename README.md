@@ -56,10 +56,10 @@ This repository contains an end-to-end computational biology and statistical gen
 
 ```text
 Project2_Microbiome_Analysis/
-├── dataset/                                   # Curated clinical & metagenomic data
-│   ├── curated_sample_metadata.csv            # 347 patients with clinical phenotype metadata
-│   ├── curated_species_relative_abundance.csv  # Species abundance profiles (347 x 57,702)
-│   └── curated_genus_relative_abundance.csv    # Genus abundance profiles (347 x 11,942)
+├── dataset/                                   # Curated clinical & metagenomic data (compressed <25 MB for GitHub)
+│   ├── curated_sample_metadata.csv            # 347 patients with clinical phenotype metadata (81.8 KB)
+│   ├── curated_genus_relative_abundance.csv.gz # Genus abundance profiles (4.77 MB, decompresses to 33.5 MB)
+│   └── curated_species_relative_abundance.csv.gz # Species abundance profiles (14.85 MB, decompresses to 134.2 MB)
 │
 ├── plots/                                     # Generated EDA figures (15 high-res PNGs)
 │   ├── 01_missing_values.png
