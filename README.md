@@ -158,4 +158,4 @@ Project2_Microbiome_Analysis/
 
 ## 👤 Author
 **Shivesh** ([@SHIVESH89](https://github.com/SHIVESH89))  
-*Developed as part of the AI for Gut and Heart Health research initiative.*
+*Computational biology and metagenomics analysis for colorectal cancer biomarker discovery.*
