@@ -1,0 +1,7 @@
+Feature,F_statistic,ANOVA_p_value,Kruskal_Wallis_H,KW_p_value,Eta_Squared
+Age,2.653,0.0227,12.193,0.0322,0.0374
+Shannon,1.367,0.2363,6.641,0.2488,0.0196
+Richness,2.221,0.0519,9.263,0.0990,0.0315
+BF_Ratio,0.862,0.5068,4.291,0.5084,0.0125
+p__Bacteroidota,0.802,0.5488,3.568,0.6131,0.0116
+p__Firmicutes_A,0.952,0.4475,4.651,0.4599,0.0138

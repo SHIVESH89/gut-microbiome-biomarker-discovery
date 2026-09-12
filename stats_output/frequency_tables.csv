@@ -1,0 +1,44 @@
+Feature: Gender
+Gender,Frequency,Proportion (%)
+Male,204,58.79
+Female,143,41.21
+
+Feature: Study.Group
+Study.Group,Frequency,Proportion (%)
+Healthy,127,36.6
+Stage_I_II,69,19.88
+Stage_III_IV,54,15.56
+MP,40,11.53
+HS,30,8.65
+Stage_0,27,7.78
+
+Feature: Stage
+Stage,Frequency,Proportion (%)
+-,197,56.77
+I,44,12.68
+0,27,7.78
+IIA,24,6.92
+IIIB,22,6.34
+IVA,12,3.46
+IIIA,8,2.31
+IVB,6,1.73
+IIIC,4,1.15
+IIC,1,0.29
+Ivb,1,0.29
+Iva,1,0.29
+
+Feature: Tumor location
+Tumor location,Frequency,Proportion (%)
+-,197,56.77
+Rectum,69,19.88
+Right colon,44,12.68
+Left colon,32,9.22
+Left colon and Right colon,3,0.86
+Rectum and Left colon,1,0.29
+"Rectum, Left colon and Right colon",1,0.29
+
+Cross-Tabulation: Gender x Study.Group
+Gender,HS,Healthy,MP,Stage_0,Stage_III_IV,Stage_I_II,All
+Female,17,56,9,14,24,23,143
+Male,13,71,31,13,30,46,204
+All,30,127,40,27,54,69,347
